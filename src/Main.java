@@ -14,7 +14,7 @@ public class Main {
             bonus = payment / 100;
         }
         int newBalance = balance + payment + bonus;
-        System.out.println("Количество бонусов = " + bonus);
-        System.out.println("Итоговая сумма = " + newBalance);
+        System.out.println("Количество бонусных рублей = " + bonus);
+        System.out.println("Итоговый счет = " + newBalance);
     }
 }
